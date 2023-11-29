@@ -67,9 +67,10 @@
   </div>
 </header>
 <script>
+  
   document.getElementById("logo").addEventListener("click", function(event) {
     event.preventDefault(); // Prevent the default link behavior
-
+  console.log("hello");
     var targetUrl = "/";
     window.history.replaceState({}, document.title, targetUrl); // Update the URL without fragments
 
@@ -79,6 +80,7 @@
       behavior: "smooth"
     });
   });
+
  const toggleMode =document.getElementById("st");
  const icon=document.querySelector('.switch i');
  toggleMode.addEventListener("click", function(){

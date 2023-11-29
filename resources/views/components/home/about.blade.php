@@ -1,4 +1,5 @@
 <!-- ====== Hero Section Start -->
+<section id="about" >
 <div class="relative pt-[60px] lg:pt-[80px] pb-[110px] bg-white dark:bg-slate-800">
   <div class="container">
 
@@ -51,6 +52,7 @@
     </div>
   </div>
 </div>
+</section>
 <style>
  
  @media (max-width: 355px) {

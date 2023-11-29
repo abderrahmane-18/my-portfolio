@@ -33,9 +33,9 @@ Route::get('/', function () {
 
 Route::post('/contact/submit', [\App\Http\Controllers\ContactController::class, 'submit']);
 
-Route::get('/inertia', function () {
-    return inertia::render('create');
-});
+//Route::get('/inertia', function () {
+  //  return inertia::render('create');
+//});
 /*
 Route::get('/', function () {
     return inertia::render('home');
