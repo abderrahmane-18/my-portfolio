@@ -180,7 +180,7 @@ margin-left: 15px;
         @media screen and  (min-width: 540px)and  (max-width: 720px) {
 /* Insérez vos propriétés CSS ici, avec vos sélecteurs*/
 .cp{
-  color: greenyellow;
+  
 margin-right:22px;
 }
 

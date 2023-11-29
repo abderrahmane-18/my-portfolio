@@ -32,6 +32,10 @@
               <x-button-link href="{{url('/files/abderrahmane-cv.pdf')}}" download="abderrahmane Resume.pdf" target="_blank" variant="primary" class="rounded-lg ">
                 Download CV
               </x-button-link>
+              <div x-data="{ downloadUrl: '{{ url('/files/abderrahmane-cv.pdf') }}' }">
+                <a href="#" @click="downloadCV" class="rounded-lg">Download CV</a>
+              </div>
+              
             </li>
           </ul>
           
@@ -88,3 +92,11 @@
 
 </style>
 <!-- ====== Hero Section End -->
+<script>
+  function downloadCV() {
+    const link = document.createElement('a');
+    link.href = this.downloadUrl;
+    link.download = 'abderrahmane Resume.pdf';
+    link.click();
+  }
+</script>
