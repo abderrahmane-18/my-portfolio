@@ -15,20 +15,20 @@
              I'am <span class="rounded-md text-amber-600 " id="element" ></span>
           </h1>
           <p class="text-base mb-8 max-w-[790px] " id ="zoom1">
-            Experienced Back End Software Developer with a computer science degree, showcasing robust analytical and problem-solving skills in software engineering. Proven track record of creating dependable web applications, driven by a passion for knowledge sharing. Achieved 2nd place in the Algerian Collegiate Programming Contest 2023, qualifying for the Africa and Arab Collegiate Programming Championship in Egypt.<br>
+            Back End  Developer with a computer science degree, showcasing good analytical and problem-solving skills in software engineering. I learn better by building projects. here a list of the projects both in college and as side projects, driven by a passion for knowledge sharing. Achieved 2nd place in the Algerian Collegiate Programming Contest 2023, qualifying for the Africa and Arab Collegiate Programming Championship in Egypt.<br>
             <a
               class="text-primary font-bold no-underline hover:underline underline-offset-2 decoration-2 decoration-primary"
               href="#portfolio">.take a look for My Projects</a>. <br>
           </p>
           <ul class="flex flex-wrap items-center  " id="ul">
             <li style="margin-right:15px" class="li">
-              <x-button-link href="https://github.com/abderrahmane-18" variant="primary" class="rounded-lg " >
+              <x-button-link href="https://github.com/abderrahmane-18" target="_blank" variant="primary" class="rounded-lg " >
                 My Github
               </x-button-link>
             </li>
           
             <li >
-              <x-button-link href="{{url('/files/abderrahmane_Resume.pdf')}}" download="abderrahmane's Resume.pdf" variant="primary" class="rounded-lg ">
+              <x-button-link href="{{url('/files/abderrahmane-cv.pdf')}}" download="abderrahmane Resume.pdf" target="_blank" variant="primary" class="rounded-lg ">
                 Download CV
               </x-button-link>
             </li>

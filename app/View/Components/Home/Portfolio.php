@@ -62,7 +62,7 @@ class Portfolio extends Component
                 'category' => ['Laravel', 'Tailwind.css','Alpine js'],
                 'title' => 'my personal website',
                 'image' => url('/img/por2.jpg'),
-                'link' => 'https://github.com/abderrahmane-18/my--website-portfolio'
+                'link' => 'https://github.com/abderrahmane-18/my-portfolio'
             ],
             [
                 'category' => ['Laravel'],
